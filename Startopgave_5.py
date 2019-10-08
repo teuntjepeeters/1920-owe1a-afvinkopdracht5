@@ -13,18 +13,18 @@
   
     
 def lees_inhoud(bestands_naam):
-    """Schrijf hier je eigen code die het bestand inleest en deze 
+    """Schrijf hier je eigen code die het fasta bestand inleest en deze 
     splitst in headers en sequenties.
-    Lever twee lijsten op:
-        - headers = [] met daarin alle headers
-        - seqs = [] met daarin alle sequenties behorend bij de headers
+    Lever twee strings:
+        - header = string, header van fasta
+        - seq = string met daarin de sequentie behorend bij de header
     Hieronder vind je de return nodig om deze twee lijsten op te leveren
     """
     bestand = open(bestands_naam)
-    headers = []
-    seqs = []
+    header = ""]
+    seq = ""
     
-    return headers, seqs
+    return header, seq
 
     
 def is_dna(seq):
