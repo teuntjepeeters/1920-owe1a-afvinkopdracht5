@@ -21,7 +21,7 @@ def lees_inhoud(bestands_naam):
     Hieronder vind je de return nodig om deze twee lijsten op te leveren
     """
     bestand = open(bestands_naam)
-    header = ""]
+    header = ""
     seq = ""
     
     return header, seq
