@@ -48,7 +48,7 @@ def knipt(seq):
 def main():
     # Voer hier de bestandsnaam van het juiste bestand in, of hernoem 
     # je bestand
-    bestand = "alpaca.fa" 
+    bestand = "lamaseq.fasta" 
     # Hier onder vind je de aanroep van de lees_inhoud functie, 
     # die gebruikt maakt van de bestand variabele als argument. 
     # De resultaten van de functie, de lijst met headers en de lijst 
